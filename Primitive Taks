@@ -3,3 +3,29 @@ String output = "W"+zero+"w";
 System.out.println(output);
 
 Create all the primitives (exceept long and doubles) with different values. Concatenate them into a string ang print it to the screen so it will print H3110 w0rld 2.0 true
+
+Code Here:
+public class primitive {
+    public static void main(String[] args) {
+        // for H3110
+        char H = 'H';
+        char three = '3';
+        char one = '1';                
+        byte zero = 0;
+        
+        // for w0rld
+        char w = 'w';        
+        char r = 'r';
+        char l = 'l';
+        char d = 'd';
+
+        float two = 2.0f;
+
+        boolean tama = true;
+
+        String output = " " + H + three + one + one + zero + "  " + w + zero + r + l + d + "  " + two + "  " + tama;
+
+        System.out.println(output);
+
+    }
+}
