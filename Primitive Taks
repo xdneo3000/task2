@@ -1,0 +1,5 @@
+byte zero = 0;
+String output = "W"+zero+"w";
+System.out.println(output);
+
+Create all the primitives (exceept long and doubles) with different values. Concatenate them into a string ang print it to the screen so it will print H3110 w0rld 2.0 true
